@@ -51,7 +51,62 @@ body {
 }
 
 
+.lado-izquierdo h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: left;
+}
 
+
+.lado-izquierdo ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.lado-izquierdo ul li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.lado-izquierdo ul li:before {
+    content: "•";
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+
+.estadisticas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.estadistica-item {
+    text-align: center;
+    color: white;
+}
+
+.estadistica-item .numero {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.estadistica-item .texto {
+    font-size: 16px;
+}
 
 .lado-derecho {
     width: 50%;
